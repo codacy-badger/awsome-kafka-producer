@@ -1,2 +1,40 @@
-*.class
+# sbt
+bin/
+project/target
+target/
+build/
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
 *.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# visual studio
+.vscode/
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
+*.class
+
+# Spark
+spark-warehouse/
+
+#update version
+pom.xml.releaseBackup
